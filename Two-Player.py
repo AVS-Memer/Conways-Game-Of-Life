@@ -25,11 +25,11 @@ def prin(biglist):
     print()
 
 #read file
-f = open('player1.in','r')
+f = open('StartingCoords/player1.in','r')
 fileinfo = f.readlines()
 fileinfo = [i.split() for i in fileinfo]
 f.close()
-f = open('player2.in','r')
+f = open('StartingCoords/player2.in','r')
 fileinfo2 = f.readlines()
 fileinfo2 = [i.split() for i in fileinfo2]
 f.close()
@@ -176,5 +176,5 @@ if X == 0:
   else:
     print('Player O wins!')
 else:
-  print('player O wins!')
+  print('player X wins!')
   
