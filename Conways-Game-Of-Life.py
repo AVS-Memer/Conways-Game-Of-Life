@@ -19,7 +19,7 @@ def prin(biglist):
         print('-',end = '')
     print()
 #read file
-f = open('hertz-oscillator.in','r')
+f = open('StartingCoords/hertz-oscillator.in','r')
 fileinfo = f.readlines()
 fileinfo = [i.split() for i in fileinfo]
 f.close()
